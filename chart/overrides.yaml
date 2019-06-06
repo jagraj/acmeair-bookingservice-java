@@ -15,9 +15,3 @@ ibm-websphere-liberty:
   ###############################################################################
   image:
     repository: registry.ng.bluemix.net/jagraj/ns2/acmeair-bookingservice-java
-
-ibm-mongodb-dev:
-
-  nameOverride: ""
-  dataVolume:
-    name: "dv"
