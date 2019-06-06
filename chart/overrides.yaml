@@ -15,3 +15,4 @@ ibm-websphere-liberty:
   ###############################################################################
   image:
     repository: registry.ng.bluemix.net/jagraj/ns2/acmeair-bookingservice-java
+    tag: ad32e3a
