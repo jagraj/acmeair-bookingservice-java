@@ -353,7 +353,7 @@ ibm-mongodb-dev:
   ############################ MongoDB ##########################################
   ###############################################################################
 
-
+  nameOverride: "md"
   ###############################################################################
   ## Common image variables
   ###############################################################################
@@ -394,7 +394,7 @@ ibm-mongodb-dev:
     useDynamicProvisioning: false
 
   dataVolume:
-    name: "datavolume"
+    name: "dv"
 
     ## Specify the name of the Existing Claim to be used by your application
     existingClaimName: ""
