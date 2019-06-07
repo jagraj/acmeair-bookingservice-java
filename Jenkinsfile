@@ -4,4 +4,5 @@
 microserviceBuilderPipeline {
   image = 'acmeair-bookingservice-java'
   debug = 'true'
+  test = 'false'
 }
